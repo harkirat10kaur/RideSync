@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cab Booking System</title>
+
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<nav class="navbar">
+    <div class="logo">
+        🚖 RideSync
+    </div>
+
+    <div class="nav-actions">
+
+        <button
+                class="nav-btn"
+                onclick="goToLogin()">
+            Login
+        </button>
+
+        <button
+                class="nav-btn signup-btn"
+                onclick="window.location.href='signup.html'">
+            Sign Up
+        </button>
+
+    </div>
+
+</nav>
+
+<section class="hero">
+
+    <div class="hero-content">
+
+        <h1>
+            Book Your Ride
+            <span>In Seconds</span>
+        </h1>
+
+        <p>
+            Fast, secure and affordable cab booking.
+            Choose from Mini, Sedan or SUV and travel
+            comfortably with transparent pricing.
+        </p>
+
+        <div class="hero-buttons">
+
+            <button class="primary-btn" onclick="goToLogin()">
+                Get Started
+            </button>
+
+            <button class="secondary-btn"
+                    onclick="document.getElementById('features').scrollIntoView({behavior:'smooth'})">
+                Learn More
+            </button>
+
+        </div>
+
+    </div>
+
+</section>
+
+<section id="features" class="features">
+
+    <h2>Why Choose Us?</h2>
+
+    <div class="feature-grid">
+
+        <div class="feature-card">
+            <div class="feature-icon">⚡</div>
+            <h3>Instant Booking</h3>
+            <p>
+                Book your cab in just a few clicks.
+            </p>
+        </div>
+
+        <div class="feature-card">
+            <div class="feature-icon">💰</div>
+            <h3>Affordable Fare</h3>
+            <p>
+                Transparent pricing with no hidden charges.
+            </p>
+        </div>
+
+        <div class="feature-card">
+            <div class="feature-icon">🛡️</div>
+            <h3>Safe Travel</h3>
+            <p>
+                Reliable rides and secure journeys.
+            </p>
+        </div>
+
+    </div>
+
+</section>
+
+<section class="stats">
+
+    <div class="stat-card">
+        <h2>10K+</h2>
+        <p>Bookings</p>
+    </div>
+
+    <div class="stat-card">
+        <h2>4.9★</h2>
+        <p>Rating</p>
+    </div>
+
+    <div class="stat-card">
+        <h2>500+</h2>
+        <p>Drivers</p>
+    </div>
+
+</section>
+
+<section class="cta">
+
+    <h2>Ready To Ride?</h2>
+
+    <p>
+        Start booking your cab now.
+    </p>
+
+    <button class="primary-btn" onclick="goToLogin()">
+        Book Now
+    </button>
+
+</section>
+
+<footer class="footer">
+    <p>© 2026 RideSync. All Rights Reserved.</p>
+</footer>
+
+<script src="js/app.js"></script>
+
+</body>
+</html>
