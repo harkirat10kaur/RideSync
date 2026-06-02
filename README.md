@@ -92,7 +92,6 @@ The application uses MySQL to manage:
 
 - User Accounts
 - Ride Bookings
-- Driver Details
 - Booking History
 - Fare Information
 
